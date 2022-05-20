@@ -1,0 +1,104 @@
+<script>
+	import Message from "./components/Chat.svelte"; 
+	import Header from "./components/Header.svelte";
+	import SideNav from "./components/SideNav.svelte";
+	import CodeEditor from "./components/CodeEditor.svelte";
+	import Board from "./components/Board.svelte";
+	let state = {
+	  color: "#000000",
+			  size: "5"
+	};
+  
+	function changeColor(params) {
+		  console.log(params.target.value);
+			  state.color = params.target.value
+			  console.log(state.color);
+			}
+  
+	  function changeSize(params) {
+		  console.log(params.target.value);
+		  state.size =  params.target.value
+	  }
+  
+  </script>
+  
+  <Header imageSrc="images/ShareCode.png" />
+  
+  <div class="wrapper">
+  
+	  <CodeEditor />
+	<SideNav />
+	<Message/> 
+	
+	
+  </div>
+  
+	 
+  <div class="container">
+	<div class="tools-section">
+		<!-- <div class="color-picker-container">
+			Select Brush Color : &nbsp; 
+			<input type="color" value={state.color} on:change={event => changeColor(event)}/>
+		</div>
+  
+		<div class="brushsize-container">
+			Select Brush Size : &nbsp; 
+			<select value={state.size} on:change={event => changeSize(event)}>
+				<option> 5 </option>
+				<option> 10 </option>
+				<option> 15 </option>
+				<option> 20 </option>
+				<option> 25 </option>
+				<option> 30 </option>
+			</select>
+		</div> -->
+		WhiteBoard
+  
+	</div>
+  
+	<div class="board-container">
+		<Board color={state.color} size={state.size}></Board>
+	</div>
+  </div> 
+  
+  <!-- <style>
+	
+  </style> -->
+  
+  
+  <style>
+	.wrapper {
+	  display: flex;
+	  height: 65%;
+	}
+	.container {
+	  position: fixed;
+	  width: 40%;
+	  height: 100%;
+	  background: linear-gradient(45deg, #03A9F4, #4CAF50);
+  }
+  
+  .color-picker-container {
+	  text-align: center;
+	  display: inline;
+	  color: white;
+  }
+  
+  .brushsize-container {
+	  display: inline;
+	  color: white;
+	  margin-left: 12px;
+  }
+  
+  .tools-section {
+	  text-align: center;
+  }
+  
+	.board-container {
+		width: 100%;
+		height: 40%;
+		margin: auto;
+		margin-top: 1%;
+		background: white;
+	}
+  </style>
