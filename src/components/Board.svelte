@@ -6,7 +6,7 @@
     // console.log(size);
     import { onMount } from "svelte";
     var timeout;
-    var socket = io.connect("http://localhost:2000");
+    var socket = io.connect("https://lit-ocean-60441.herokuapp.com/");
     var ctx;
     var isDrawing = false;
     
