@@ -1,6 +1,6 @@
 <script>
     import io from "socket.io-client";
-    const socket = io.connect('http://localhost:4000/');
+    const socket = io.connect('https://fathomless-wave-10975.herokuapp.com/');
     // console.log(videoGrid)
     const myPeer = new Peer(undefined, {
         host: "/",
