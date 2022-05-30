@@ -8,9 +8,9 @@
         let editor = get(EditorStore);
         let text = editor.getValue();
         if(text == "print(\"Hello World!\")" ) {
-            document.getElementById("output").value = "Hello World!";}
+            document.getElementById("output").innerHTML = "Hello World!";}
         else if(text == "print(\"Hello World!\")" ){
-            document.getElementById("output").value = "Hello World!";
+            document.getElementById("output").innerHTML = "Hello World!";
         }else if(text == "for i in range(10):\n\tprint(i)"){
             document.getElementById("output").innerHTML = "0<br>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9";
         }else if(text == "def add(a,b):\n\tprint(a+b)\nadd(3,4)"){
