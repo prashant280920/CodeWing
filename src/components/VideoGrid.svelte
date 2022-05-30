@@ -68,15 +68,15 @@
     // export let size;
     // export let state;
     // console.log(size);
-    import { onMount } from "svelte";
-    var timeout;
-    // var socket = io.connect("http://localhost:2000");
-    var ctx;
-    var isDrawing = false;
+    // import { onMount } from "svelte";
+    // var timeout;
+    // // var socket = io.connect("http://localhost:2000");
+    // var ctx;
+    // var isDrawing = false;
 
-    onMount(() => {
-        drawOnCanvas();
-    });
+    // onMount(() => {
+    //     drawOnCanvas();
+    // });
     // socket.on("canvas-data", function(data){
 
     //     var root = this;
@@ -95,9 +95,9 @@
     //         image.src = data;
     //     }, 200)
     // })
-    const drawOnCanvas = () => {
-        return;
-    };
+    // const drawOnCanvas = () => {
+    //     return;
+    // };
 </script>
 
 <div class="video-grid" id="grid">

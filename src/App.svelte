@@ -5,6 +5,7 @@
 	import CodeEditor from "./components/CodeEditor.svelte";
 	import Board from "./components/Board.svelte";
 	import VideoGrid from "./components/VideoGrid.svelte";
+	import InputOutput from "./components/InputOutput.svelte";
 	let state = {
 		color: "#000000",
 		size: "5",
@@ -26,6 +27,7 @@
 
 <div class="wrapper">
 	<CodeEditor />
+	<InputOutput />
 	<SideNav />
 	<Message />
 </div>
