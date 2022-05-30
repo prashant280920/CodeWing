@@ -50,7 +50,7 @@
             last_mouse.y = mouse.y;
             // console.log(mouse.x, last_mouse.x, e.pageX, this.offsetLeft, canvas.width)
             mouse.x = (e.pageX - this.offsetLeft) ;
-            mouse.y = (e.pageY - this.offsetTop-600);
+            mouse.y = (e.pageY - this.offsetTop-650);
         }, false);
 
 

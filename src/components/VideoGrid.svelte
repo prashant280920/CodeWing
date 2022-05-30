@@ -3,8 +3,9 @@
     const socket = io.connect('https://fathomless-wave-10975.herokuapp.com/');
     // console.log(videoGrid)
     const myPeer = new Peer(undefined, {
-        host: "/",
-        port: "3001",
+        host: "videocodewing.herokuapp.com",
+        port:"443",
+        secure:!0,
     });
     console.log("Hello")
     console.log(myPeer)

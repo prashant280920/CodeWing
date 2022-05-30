@@ -68,6 +68,7 @@
 	.super-container{
 		display: flex;
 		flex-direction: row;
+		
 	}
 	.video-container{
 		width: 100%;
@@ -80,7 +81,7 @@
 	.container {
 		position: relative;
 		width: 100%;
-		height: 100%;
+		/* height: 100%; */
 		background: linear-gradient(45deg, #03a9f4, #4caf50);
 	}
 
@@ -102,7 +103,7 @@
 
 	.board-container {
 		width: 100%;
-		height: 40%;
+		height: 85%;
 		margin: auto;
 		margin-top: 1%;
 		background: white;
