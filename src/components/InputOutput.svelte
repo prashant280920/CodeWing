@@ -1,5 +1,7 @@
 
 <script>
+
+  
     import { EditorStore } from "../services/store";
     import { get } from "svelte/store";
 
@@ -29,6 +31,7 @@
   
   <div class="side-bar">
   
+    <iframe src="https://trinket.io/embed/python/c796d6c9a1" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
  
     <p type="text"  id ="output" style=" height: 500px;background-color:white; width:300px; overflow:scroll" name="username" value="Output" readonly></p>
     <button on:click={myFunction}>Try it</button>
