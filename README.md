@@ -3,8 +3,11 @@ CodeWing is a collaborative editor  that allows several people to edit, view, co
 
 This is our System Practicum (CS307) Group Project.
 
-## App is Live at
-Deploy on GitHub - [CodeWing ;)](https://prashant280920.github.io/CodeWing/)
+## APP Sources
+1. App is Deploy on GitHub - [CodeWing ;)](https://prashant280920.github.io/CodeWing/)
+2. Source Code - [prashant280920/CodeWing](https://github.com/prashant280920/CodeWing)
+3. PPT - [Link](https://github.com/prashant280920/CS307_System_Practicum/tree/main/SysPrac_Project)
+4. Presentation + Demo on [Youtube](https://youtu.be/GrOmdXlWy04) 
 
 ## Our Team 
 
@@ -35,6 +38,8 @@ Deploy on GitHub - [CodeWing ;)](https://prashant280920.github.io/CodeWing/)
 4. [Chat Server](https://github.com/salon280920/chat_server) for implementing chat application.
 5. [Peer Js](https://peerjs.com/#:~:text=PeerJS%20simplifies%20WebRTC%20peer%2Dto,connection%20to%20a%20remote%20peer.) PeerJS simplifies WebRTC peer-to-peer data, video, and audio calls
 
+### ScreenShot
+![Screenshot](https://user-images.githubusercontent.com/60234231/171387625-ba13f716-5501-4325-bea4-d756f9c5434b.png)
 
 ## Contributing
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**. Go ahead and fork the project.
