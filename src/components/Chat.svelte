@@ -33,7 +33,7 @@
 			/>
 		</form>
 	</div>
-	<div class="list-group list-group-flush border-bottom scrollarea" style="overflow:scroll">
+	<div class="list-group list-group-flush border-bottom " style="overflow:auto">
 		{#each messages as msg, i}
 			<div class="list-group-item list-group-item-action py-3 lh-sm">
 				{#if i != 0}
@@ -50,8 +50,3 @@
 </div>
 
 
-<style>
-	.scrollarea{
-    	min-height: 500px;
-  	}
-</style>

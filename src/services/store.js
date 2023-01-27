@@ -6,10 +6,10 @@ const messageStore = writable('');
 
 // const socket = new WebSocket('wss://dae9057c.ngrok.io');
 
-const socket = new WebSocket('wss://murmuring-caverns-51341.herokuapp.com/');
-
+// const socket = new WebSocket('wss://murmuring-caverns-51341.herokuapp.com/');
+const socket = new WebSocket('ws://localhost:3000');
 // Connection opened
-socket.addEventListener('open', function (event) {
+socket.addEventListener('open', function (_event) {
     console.log("It's open");
 });
 
